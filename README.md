@@ -52,7 +52,7 @@ Result: Models equipped to effectively learn from limited training data while ge
 | DistilBERT | 0.9853   | 0.9839    | 0.9866  | 0.9853   |
 | ELECTRA    | 0.9907   | 0.9919    | 0.9893  | 0.9906   |
 
- <p align="center">
+ <p>
     <img src="https://github.com/amruthapurnavadrevu/Fake-News-Classification/blob/main/Visualisations/ConfusionMatrices.png" alt="Confusion Matrices" width="500"/>
 </p>
 
