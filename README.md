@@ -41,16 +41,16 @@ Result: Models equipped to effectively learn from limited training data while ge
 
 ## Findings
 
+| Model      | Accuracy | Precision | Recall  | F1-score |
+|------------|----------|-----------|---------|----------|
+| DistilBERT | 0.9853   | 0.9839    | 0.9866  | 0.9853   |
+| ELECTRA    | 0.9907   | 0.9919    | 0.9893  | 0.9906   |
+
 - Constrained computational resources impacted model execution, utilizing only half of the dataset, reducing data volume and potentially affecting generalization.
 - Limited dataset and computational constraints increased the risk of overfitting, addressed through measures like freezing bottom layers, early stopping, and weight decay regularization.
 - DistilBERT showed faster convergence and training speed but slightly lower accuracy compared to ELECTRA.
 - ELECTRA achieved higher accuracy with longer training times due to its enhanced model capacity and discriminator pre-training strategy.
 - Analysis using confusion matrices supported these trends, with ELECTRA demonstrating superior precision in classifying real and fake news articles compared to DistilBERT.
-
-| Model      | Accuracy | Precision | Recall  | F1-score |
-|------------|----------|-----------|---------|----------|
-| DistilBERT | 0.9853   | 0.9839    | 0.9866  | 0.9853   |
-| ELECTRA    | 0.9907   | 0.9919    | 0.9893  | 0.9906   |
 
  <p>
     <img src="https://github.com/amruthapurnavadrevu/Fake-News-Classification/blob/main/Visualisations/ConfusionMatrices.png" alt="Confusion Matrices" width="800"/>
