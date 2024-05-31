@@ -17,7 +17,7 @@ In today's digital age, the proliferation of fake news poses a significant chall
 - Data Distribution Visualization: The distribution of labels (0 for fake news, 1 for real news) across training, validation, and test sets was visualized to assess model bias and generalizability. The balanced distribution between classes in all three data splits facilitates effective model training by mitigating bias and enhancing generalizability to unseen data.
 
  <p align="center">
-    <img src="" alt="Data Distribution After Sampling" width="350"/>
+    <img src="https://github.com/amruthapurnavadrevu/Fake-News-Classification/blob/main/Visualisations/DatasetSampling.png" alt="Data Distribution After Sampling" width="350"/>
 </p>
 
 ## Model Building
